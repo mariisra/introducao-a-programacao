@@ -1,0 +1,25 @@
+#Crie um programa para verificar se a média aritmética de uma disciplina atingiu a nota 7,0. Considere três notas, e aplique a fórmula da média aritmética, se o aluno atingiu a nota mínima ou maior, imprima uma mensagem de parabéns, se não uma mensagem de que ele precisa estudar um pouco mais.
+nota1 = float(input("Digite sua primeira nota:"))
+nota2 = float(input("Digite sua segunda nota:"))
+nota3 = float(input("Digite sua terceira nota:"))
+
+resultado = (nota1 + nota2 + nota3) / 3
+
+print("Sua média é {:.1f}" .format(resultado))
+
+if resultado >= 7:
+    print("Parabéns! :)")
+elif resultado <= 6:
+    print("Você precisa estudar mais! :(")
+
+#Desenvolva um sistema de autenticação, no qual se verifica o login e a senha. O usuário deverá digitar o seu nome de usuário e sua senha. Se os dois valores estiverem correto, imprima uma mensagem de boas-vindas para para o usuário, se não imprima que o login ou a senha estão incorretos. Utilize nome de usuário e senhas fictícias dentro da estrutura de seleção.
+login = str("sousaaduda")
+senha = str("chocolate123")
+
+variável1 = str(input("Digite seu loguin:"))
+variável2 = str(input("Digite sua senha:"))
+
+if login == variável1 and senha == variável2:
+    print("boas-vindas! :)")
+else:
+    print("login ou senha estão incorretos. :(")
