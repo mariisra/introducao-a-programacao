@@ -1,0 +1,83 @@
+#1) Escreva um algoritmo que, com base nas dimensões de um retângulo (base e altura), vai calcular e escrever a área do retângulo.
+base = int(input("Digite o número da base: "))
+altura = int(input("Digite o número da altura: "))
+
+resultado = base * altura
+
+print(resultado)
+
+#2) Escreva um algoritmo que peça dois números ao usuário e realize a SOMA entre eles.
+número1 = int(input("Digite o primeiro número:"))
+número2 = int(input("Digite o segunddo número:"))
+
+soma = número1 + número2
+
+print(f"A soma deu:{soma}")
+
+#3) Escreva um algoritmo que peça dois números ao usuário e realize a SUBTRAÇÃO entre eles.
+número1 = int(input("Digite o primeiro número:"))
+número2 = int(input("Digite o segundo número:"))
+
+subtração = número1 - número2
+
+print(f"A subtração deu: {subtração}")
+
+#4) Escreva um algoritmo que peça dois números ao usuário e realize a MULTIPLICAÇÃO entre eles.
+número1 = int(input("Digite o primeiro número:"))
+número2 = int(input("Digite o segundo número:"))
+
+multiplicação = número1 * número2
+
+print(f"A multiplicação deu:{multiplicação}")
+
+#5) Escreva um algoritmo que peça dois números ao usuário e realize a DIVISÃO entre eles.
+número1 = int(input("Digite o primeiro número:"))
+número2 = int(input("Digite o segundo número:"))
+
+divisão = número1 / número2
+
+print(f"A divisão deu: {divisão}")
+
+#6) PROGRAMA QUADRADO 2.0 – O usuário informa três números inteiros, o programa soma esses três valores e depois mostra o quadrado do resultado obtido.
+número1 = int(input("Digite o primeiro número:"))
+número2 = int(input("Digite o segundo número:"))
+número3 = int(input("Digite o terceiro número:"))
+
+resultado = (número1 + número2 + número3)**2
+
+print(f"O resultado deu:{resultado}")
+
+#7) PROGRAMA COTAÇÃO – O usuário digita quanto está valendo o dólar e quanto em reais ele possui. O programa exibe quantos dólares valem os reais que o usuário informou. 
+dolar = float(input("Digite quanto está o dolar:"))
+real = float(input("Digite quantos reais você tem:"))
+
+resultado = real / dolar 
+
+print(f"Você tem {resultado:.2f} dolares>")
+
+#8) PROGRAMA TEMPERATURA – O usuário digita a temperatura em graus Célsius e o programa exibe o valor em graus Fahrenheit. A conversão é dada pela seguinte fórmula: F = C * 1,8 + 32
+celsius = float(input("Qual a temperatura em celsius?"))
+
+fahrenheit = (celsius*1.8) + 32
+
+print(fahrenheit)
+
+#9) Determine os resultados obtidos na avaliação das expressões lógicas seguintes, sabendo que a, b, c contém, respectivamente 2, 7, 3.5, e que existe uma variável lógica L cujo o valor é false.
+#a) b == a * c and L
+#b) b > a or b == a^a
+#c) L and b % a >= c or not a <= c
+#d) b/a == c or b/a != c
+a = 2
+b = 7
+c = 3.5
+L = False 
+
+sentença1 = b == a * c and L
+sentença2 = b > a or b == a^a
+sentença3 = L and b % a >= c or not a <= c
+sentença4 = b/a == c or b/a != c
+
+print(bool(sentença1))
+print(bool(sentença2))
+print(bool(sentença3))
+print(bool(sentença4))
