@@ -9,11 +9,11 @@ import random
 nuemros_v = []
 VET = []
 for in range(1, 51):
-  VET.appened(random.randint(1, 9))
+  VET.append(random.randint(1, 9))
   print(VET)
   
   for k in VET:
     if k not in numeros_v:
       indices = [indice for indice, valor in enumerate(VET) if valor == k]
       print("numero: ", k , "posições: ", indices)
-      numeros_v.appened(k)
+      numeros_v.append(k)
