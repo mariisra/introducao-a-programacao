@@ -6,14 +6,15 @@ print(numeros)
 #2) Faça um algoritmo para ler 50 números e armazenar em um vetor VET, verificar e escrever se existem números repetidos no vetor VET e em que posições se encontram.
 import random 
 
-nuemros_v = []
-VET = []
-for in range(1, 51):
-  VET.append(random.randint(1, 9))
-  print(VET)
+vet = []
+
+for x in range(50):
+  vet.append(random.randint(0, 100))
+  print(vet)
   
-  for k in VET:
-    if k not in numeros_v:
-      indices = [indice for indice, valor in enumerate(VET) if valor == k]
-      print("numero: ", k , "posições: ", indices)
-      numeros_v.append(k)
+print(vet)
+  
+for i in range(0, len(vet)):
+   for k in range(0,len(vet)):
+    if vet[i] ==  vet[k] and i != k:
+      print(f'Índice: {k} | Valor: {vet[k]} \n')
