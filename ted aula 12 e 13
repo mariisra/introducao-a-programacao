@@ -1,0 +1,13 @@
+glossário = {
+  'input' : {'palavra':'input', 'significado':'Solicita dados do usuário; retorna valores do tipo string' },
+  'variáveis string' : {'palavra':'variáveis string', 'significado':'Cadeias de caracteres como nomes e textos em geral'},
+  'if' : {'palavra':'if', 'significado':'Se' },
+  'estruturas aninhadas' : {'palavra':'estruturadas aninhadas', 'significado':'Utilizar um if dentro de outro' },
+  'elif' : {'palavra':'elif', 'significado':'Solução interessante ao problema de múltiplos ifs aninhados; substitui um par else if' }, 
+  'range' : {'palavra':'range', 'significado':'Gera listas simples'}
+}
+
+for i in glossário:
+  palavra = glossário[i]['palavra']
+  significado = glossário[i]['significado']
+  print(f'Nesta disciplina de introdução à programação, algumas palavras relacionadas à progrmação que aprendi foram, como por exemplo: {palavra} quem tem como definição: {significado}.')
