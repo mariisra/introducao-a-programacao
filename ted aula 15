@@ -85,3 +85,5 @@ while listar_cadastro != -2:
     elif listar_cadastro == 0:
         print('Isso é tudo pessoal. Bom trabalho!')
         break
+
+grupo: Emanuel Pedro, Maria Eduarda, Milena Ribeiro E Pedro Leôncio.
